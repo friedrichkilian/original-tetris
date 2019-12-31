@@ -10,7 +10,7 @@ Brackets ([]) are used for tetraminos. In the original game, the "Delete/Ruboff"
 
 __Possible inaccuracies:__
 - The speed of falling blocks (currently 650 - 40 * level)
-- The scoring system (currently like described [here](https://tetris.wiki/Tetris_(Electronika_60)#Scoring "Tetris Wiki - Tetris (Electronika 60)")
+- The scoring system (currently like described [here](https://tetris.wiki/Tetris_(Electronika_60)#Scoring "Tetris Wiki - Tetris (Electronika 60)"))
 
 ## Controls
 #### Start the game
