@@ -306,9 +306,9 @@ Bugs and the Russian language from the original game are adopted.
         str += "\nУРОВЕНЬ:      ";
         str += level;
         str += "\n  СЧЕТ:  ";
-        if(score < 100)
+        if(score % 1000 < 100)
             str += " ";
-        if(score < 10)
+        if(score % 1000 < 10)
             str += " ";
         str += score % 1000;
         str += "\n";
