@@ -1,5 +1,5 @@
 # Tetris
-You can play this game [here](friedrichkilian.github.io/original-tetris/index.htm)) (only on PCs).
+You can play this game [here](friedrichkilian.github.io/original-tetris/index.htm) (only on PCs).
 
 This project is a JavaScript-remake of the original Tetris game which was developed by Alexey Pajitnov in 1985 on an Electronika 60.
 It adopts nearly everything from the original game, including [bugs](https://tetris.wiki/Tetris_(Electronika_60)#Bugs "Tetris Wiki - Tetris (Electronika 60)") and the Russian language.
