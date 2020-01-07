@@ -99,7 +99,7 @@
 
         let str = "";
         for(let i = 0; i < bests.length; i++)
-            str += (i === 0 ? "" : ";") + bests[i].replace(",x$", "");
+            str += (i === 0 ? "" : ";") + bests[i].replace(/,x$/, "");
 
         return "tetris.htm?" + sl + ":" + str;
 
