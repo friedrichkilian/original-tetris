@@ -250,21 +250,29 @@ Bugs and the Russian language from the original game are adopted.
         switch(event.code) {
             case "Numpad7":
             case "Digit7":
+         case "KeyA":
+         case "ArrowLeft":
                 if(fits(curX, curY - 1))
                     curY--;
                 break;
             case "Numpad9":
             case "Digit9":
+         case "KeyD":
+         case "ArrowRight":
                 if(fits(curX, curY + 1))
                     curY++;
                 break;
             case "Numpad8":
             case "Digit8":
+         case "KeyW":
+         case "ArrowUp":
                 if(fits(curX, curY, (curID < 4 && curRot === 90 || curRot === 270) ? 0 : curRot + 90))
                     curRot = (curID < 4 && curRot === 90 || curRot === 270) ? 0 : curRot + 90;
                 break;
             case "Numpad4":
             case "Digit4":
+         case "KeyS":
+          case "ArrowDown"
                 if(curID < 0)
                     break;
                 while(fits(curX + 1, curY)) {
