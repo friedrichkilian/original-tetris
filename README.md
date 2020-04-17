@@ -19,6 +19,8 @@ __Possible inaccuracies:__
 Type the level at which you want to start and press Enter to play the game.
 
 #### Control the game
+Use the arrow keys or:
+
 7 / Numpad7: Move left
 
 8 / Numpad8: Turn right
